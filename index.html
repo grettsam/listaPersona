@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Lista Persona</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Enpleados</h1>
+      <div class="contenedor">
+        <div class="show col">
+          <h2>Lista de empleados</h2>
+          <ul>
+            <div id="elemento"></div>
+            
+          </ul>
+        </div>
+        <div class="formulario col">
+          <h2>Formulario empleados</h2>
+          <form action="">
+            <div class="inputForm">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" />
+            </div>
+            <div class="inputForm">
+              <label for="apellido">Apellido</label>
+              <input id="apellido" name="apellido" type="text" />
+            </div>
+            <div class="inputForm">
+              <label for="edad">Edad</label>
+              <input id="edad" name="edad" type="number" />
+            </div>
+            <div class="inputForm">
+                <label for="cargo">Cargo</label>
+                <input id="cargo" name="cargo" type="text" />
+              </div>
+              <div class="inputForm">
+
+                      <button type="button" onclick="agregar()">Agregar</button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
